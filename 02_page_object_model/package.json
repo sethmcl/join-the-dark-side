@@ -1,0 +1,17 @@
+{
+  "name": "02-page-object-model",
+  "version": "0.0.0",
+  "author": "Seth McLaughlin",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env default"
+  },
+  "dependencies": {
+    "chromedriver": "~2.10.0-1",
+    "selenium-server": "2.38.0",
+    "dalek-browser-ie": "0.0.4",
+    "nightwatch-pages": "*",
+    "nightwatch": "~0.5.6",
+    "phantomjs": "~1.9.7-10"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chromedriver": "~2.10.0-1",
+    "selenium-server": "2.38.0",
+    "nightwatch": "~0.5.6",
+    "phantomjs": "~1.9.7-10"
+  }
+}
