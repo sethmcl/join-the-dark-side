@@ -37,6 +37,14 @@ module.exports = {
         browserName: 'chrome',
         javascriptEnabled: true
       }
+    },
+
+    phantom: {
+      desiredCapabilities: {
+        browserName: 'phantomjs',
+        'phantomjs.binary.path': require('phantomjs').path,
+        javascriptEnabled: true
+      }
     }
   }
 };
