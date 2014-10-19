@@ -1,0 +1,50 @@
+
+body {
+  background: url(/img/bg.jpg);
+  padding: 50px;
+}
+
+body.error {
+  background: red;
+}
+
+body.great-success {
+  background: #38B376;
+}
+
+#app {
+  font-family: Helvetica, Arial;
+  font-weight: 300;
+
+  border: 1px solid #CBD1D3;
+  background: #fff;
+  padding: 30px;
+  height: 300px;
+  width: 500px;
+  margin: 0 auto 0 auto;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 100;
+}
+
+li {
+  position: relative;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 0 0 10px 0;
+}

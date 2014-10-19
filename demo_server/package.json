@@ -1,0 +1,23 @@
+{
+  "name": "demo_server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "demo_server": "./bin/demo_server.js"
+  },
+  "scripts": {
+    "start": "node bin/demo_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth McLaughlin",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "2.x.x",
+    "body-parser": "1.6.x",
+    "debug": "2.x.x",
+    "express": "4.7.x",
+    "hogan-express": "0.x.x"
+  }
+}

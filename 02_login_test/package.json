@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env default",
+    "debug": "node debug ./node_modules/.bin/nightwatch -c ./Nightwatch.js --env default"
+  },
+  "dependencies": {
+    "chromedriver": "~2.10.0-1",
+    "selenium-server": "2.38.0",
+    "nightwatch": "~0.5.31",
+    "phantomjs": "~1.9.7-10"
+  }
+}
